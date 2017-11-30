@@ -1,0 +1,31 @@
+
+PDI Works fine with AVRDRAGON Programmer (10k RESET Pullup OK!)
+
+
+Possible improvements for Rev B:
+
+ - J7: Micro B Connector Footprint Holes (smaller diameter)
+ - F1: Wider Pad for 1206 packages (Polyswitch)
+ - R2: Depending on the LED (For 20mA Rated BLUE LED 10k works nicely)
+ - C5: 1uF (From Datasheet)
+ - C2: 4.7uF (BOM Reduction)
+
+Testcode: (BLINK in ATMEL STUDIO 7)
+
+
+#include <avr/io.h>
+#include <util/delay.h>
+
+#define BLINK_DELAY_MS 100
+
+int main( void )
+{
+  PORTA.DIRSET = 0b00000001 ; // Set pin 0 to be output.
+	
+  while(1){ // loop forever
+    PORTA.OUTSET = 0b00000001 ; // set the output high.
+    _delay_ms( BLINK_DELAY_MS ) ; // wait.
+    PORTA.OUTCLR = 0b00000001 ; // set the output low.
+    _delay_ms( BLINK_DELAY_MS ) ; // wait.
+   }
+}
