@@ -1,0 +1,6 @@
+3PCS  1206      100mA Polyswitch         https://www.tme.eu/hu/details/sn010-60/smd-polimer-biztositekok/ece/
+3PCS  MiniMELF  5.1V  Zener Diode        https://www.tme.eu/hu/details/zmm5.1-dio/smd-zener-diodak/diotec-semiconductor/zmm51/
+2PCS  MiniMELF  12V   Zener Diode        https://www.tme.eu/hu/details/zmm12-dio/smd-zener-diodak/diotec-semiconductor/zmm12/
+3PCS  0805      100nF Ceramic Capacitor  https://www.tme.eu/hu/details/cl21b104jbcnnnc/mlcc-smd-0805-kondenzatorok/samsung/
+3PCS  0805      4.7uF Ceramic Capacitor  https://www.tme.eu/hu/details/cl21a475kofnnng/mlcc-smd-0805-kondenzatorok/samsung/
+1PCS  2.54mm    2x8   Molex Pinheader    https://www.tme.eu/hu/details/mx-90130-1116/tuskesorok-es-aljzatok/molex/901301116/  
