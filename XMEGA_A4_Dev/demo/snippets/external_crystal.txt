@@ -1,0 +1,19 @@
+void xtal_init(){
+	
+	// INITIALIZE EXTERNAL 16MHz crystal oscillator
+	// SET PLL TO *2 (32MHz CPU CLOCK)
+	// SET A B C PRESCALERS TO 1 1 1
+	// Don't forget: #define F_CPU 32000000U
+	
+	OSC.XOSCCTRL = 0xCB; // 16MHz external
+	OSC.CTRL     |= OSC_XOSCEN_bm; // enable XOSC
+	while (!(OSC.STATUS & OSC_XOSCEN_bm)); // wait for XTAL to by ready
+	OSC.PLLCTRL =0xC2;	// XOSC as input to PLL, multiply x2
+	OSC.CTRL |= OSC_PLLEN_bm; // ebable PLL
+	while (!(OSC.STATUS & OSC_PLLEN_bm)); // wait for PLL to by ready
+	CCP = 0xD8; //allow protected register
+	CLK.CTRL = 0x04; // PLL to generate system clocks
+	CCP = 0xD8; //allow protected register
+	CLK.PSCTRL = 0; // set precaler A B C to 1 1 1
+
+}

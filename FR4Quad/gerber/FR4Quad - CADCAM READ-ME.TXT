@@ -1,0 +1,110 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'FR4Quad.pdsprj'.
+CADCAM generated at 11:51:12 PM on Saturday, December 23, 2017.
+
+File List
+---------
+Top Copper              : FR4Quad - CADCAM Top Copper.GBR
+Bottom Copper           : FR4Quad - CADCAM Bottom Copper.GBR
+Top Silk Screen         : FR4Quad - CADCAM Top Silk Screen.GBR
+Bottom Silk Screen      : FR4Quad - CADCAM Bottom Silk Screen.GBR
+Top Solder Resist       : FR4Quad - CADCAM Top Solder Resist.GBR
+Bottom Solder Resist    : FR4Quad - CADCAM Bottom Solder Resist.GBR
+Top SMT Paste           : FR4Quad - CADCAM Top SMT Paste.GBR
+Bottom SMT Paste        : FR4Quad - CADCAM Bottom SMT Paste.GBR
+Mechanical 3            : FR4Quad - CADCAM Mechanical 3.GBR
+Top Assembly            : FR4Quad - CADCAM Top Assembly.GBR
+Bottom Assembly         : FR4Quad - CADCAM Bottom Assembly.GBR
+Drill                   : FR4Quad - CADCAM Drill.DRL
+Netlist                 : FR4Quad - CADCAM Netlist.IPC
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 4.3, metric, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height, C=Chamfer, I=Index
+
+D10	CIRCLE  D=0.508mm                                                         DRAW 
+D11	CIRCLE  D=0.762mm                                                         DRAW 
+D12	CIRCLE  D=0.254mm                                                         DRAW 
+D13	CIRCLE  D=0.762mm                                                         FLASH
+D14	CIRCLE  D=3.048mm                                                         FLASH
+D15	PPAD    W=1.34704mm           H=1.34704mm           I=0                   FLASH
+D16	PPAD    W=1.16672mm           H=1.16672mm           I=1                   FLASH
+D17	PPAD    W=1.79606mm           H=1.79606mm           I=2                   FLASH
+D18	PPAD    W=1.34704mm           H=1.34704mm           I=3                   FLASH
+D19	PPAD    W=1.16672mm           H=1.16672mm           I=4                   FLASH
+D70	PPAD    W=1.79606mm           H=1.79606mm           I=5                   FLASH
+D71	CIRCLE  D=2.2mm                                                           FLASH
+D20	PPAD    W=2.15526mm           H=2.15526mm           I=6                   FLASH
+D21	CIRCLE  D=1.524mm                                                         FLASH
+D22	RECT    W=0.381mm             H=1.778mm                                   FLASH
+D23	CIRCLE  D=1.45mm                                                          FLASH
+D24	CIRCLE  D=1.9mm                                                           FLASH
+D25	RECT    W=1.5mm               H=1.9mm                                     FLASH
+D26	RECT    W=1.524mm             H=1.016mm                                   FLASH
+D27	SQUARE  S=1.524mm                                                         FLASH
+D28	RECT    W=1.143mm             H=0.762mm                                   FLASH
+D29	RECT    W=1.524mm             H=2.54mm                                    FLASH
+D72	RECT    W=0.508mm             H=0.635mm                                   FLASH
+D73	CIRCLE  D=0.2032mm                                                        DRAW 
+D30	RECT    W=1.524mm             H=0.889mm                                   FLASH
+D31	RECT    W=0.889mm             H=1.524mm                                   FLASH
+D32	CIRCLE  D=0.25mm                                                          DRAW 
+D33	CIRCLE  D=1e-005mm                                                        DRAW 
+D34	CIRCLE  D=0.6096mm                                                        DRAW 
+D35	CIRCLE  D=1.016mm                                                         FLASH
+D36	CIRCLE  D=3.302mm                                                         FLASH
+D37	PPAD    W=1.60242mm           H=1.60242mm           I=7                   FLASH
+D38	PPAD    W=1.4221mm            H=1.4221mm            I=8                   FLASH
+D39	PPAD    W=2.05142mm           H=2.05142mm           I=9                   FLASH
+D40	PPAD    W=1.60242mm           H=1.60242mm           I=10                  FLASH
+D41	PPAD    W=1.4221mm            H=1.4221mm            I=11                  FLASH
+D42	PPAD    W=2.05142mm           H=2.05142mm           I=12                  FLASH
+D43	CIRCLE  D=2.45399mm                                                       FLASH
+D44	PPAD    W=2.41064mm           H=2.41064mm           I=13                  FLASH
+D45	CIRCLE  D=1.778mm                                                         FLASH
+D46	PPAD    W=2.41064mm           H=2.41064mm           I=14                  FLASH
+D47	PPAD    W=0.635mm             H=2.032mm             I=15                  FLASH
+D48	CIRCLE  D=1.704mm                                                         FLASH
+D49	CIRCLE  D=2.154mm                                                         FLASH
+D50	PPAD    W=1.754mm             H=2.154mm             I=16                  FLASH
+D51	PPAD    W=1.778mm             H=1.27mm              I=17                  FLASH
+D52	PPAD    W=1.778mm             H=1.778mm             I=18                  FLASH
+D53	PPAD    W=1.397mm             H=1.016mm             I=19                  FLASH
+D54	PPAD    W=1.778mm             H=2.794mm             I=20                  FLASH
+D55	PPAD    W=0.762mm             H=0.889mm             I=21                  FLASH
+D56	PPAD    W=1.778mm             H=1.778mm             I=22                  FLASH
+D57	PPAD    W=1.778mm             H=1.143mm             I=23                  FLASH
+D58	PPAD    W=1.143mm             H=1.778mm             I=24                  FLASH
+D59	CIRCLE  D=0.40677mm                                                       DRAW 
+D60	CIRCLE  D=0.08534mm                                                       DRAW 
+D61	CIRCLE  D=0.05mm                                                          DRAW 
+D62	CIRCLE  D=0.035mm                                                         DRAW 
+D63	CIRCLE  D=0.09144mm                                                       DRAW 
+D64	CIRCLE  D=0.07239mm                                                       DRAW 
+D65	CIRCLE  D=0.16459mm                                                       DRAW 
+D66	CIRCLE  D=0.27996mm                                                       DRAW 
+D67	CIRCLE  D=0.09847mm                                                       DRAW 
+D68	CIRCLE  D=0.15349mm                                                       DRAW 
+D69	CIRCLE  D=0.10075mm                                                       DRAW 
+D74	CIRCLE  D=0.97218mm                                                       DRAW 
+D75	CIRCLE  D=0.11887mm                                                       DRAW 
+
+NC Drill Setup
+--------------
+Format: Excellon, ASCII, 4.3, metric, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	0.381mm (0-15) Plated
+T02	1.778mm (0-15) Plated
+T03	2mm (0-15) Plated
+T04	0.965mm (0-15) Plated
+T05	0.85mm (0-15) Plated
+T06	1.3mm (0-15) Plated
+
+
+[END OF FILE]
